@@ -12,7 +12,7 @@ class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     var id: Long? = null
-    val nombre: String? = null
-    val description: String? = null
-    val price: Double? = null
+    var nombre: String? = null
+    var description: String? = null
+    var price: Double? = null
 }
